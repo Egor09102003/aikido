@@ -59,44 +59,49 @@ button:hover {
     color: #FFF;
 }
 
-.welcome {
-    margin-top: 222px;
+.login_form {
+    margin: auto;
+    margin-top: 67px;
+    width: 314px;
+    height: 371px;
 }
 
-.welcome h1 {
+.login_form h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
     color: #17181B;
     text-align: center;
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 30px;
     font-style: normal;
-    font-weight: 600;
-    line-height: 125%;
-    letter-spacing: -1px;
+    font-weight: 500;
+    line-height: 143%;
 }
 
-.welcome h2 {
+.login_form h2 {
+    margin-top: 25px;
     color: #17181B;
-    text-align: center;
     font-family: Montserrat;
-    font-size: 21px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+input {
+    width: 289px;
+    height: 64px;
+    border-radius: 4px;
+    border: 1px solid #17181B;
+    color: #17181B;
+    /* 15px, Regular */
+    font-family: Montserrat;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 143%;
-    margin-top: 0px;
-    margin-bottom: 24px;
-}
-
-.welcome {
-    text-align: center;
-}
-
-.welcome button {
-    text-align: center;
-    width: 490px;
-    height: 66px;
-    display: inline-block;
-    border: 0px solid;
-    padding: 0px;
+    line-height: 160%;
+    padding: 0 0 0 23px;
+    background: #CBD7DF;
 }
 
 .login {
@@ -107,19 +112,12 @@ button:hover {
     font-style: normal;
     font-weight: 500;
     line-height: 152%;
+    width: 313px;
+    padding: 19px 0px;
+    justify-content: center;
+    align-items: center;
     border-radius: 4px;
     background: #17181B;
-    margin-right: 15px;
-}
-
-.register {
-    color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 152%;
-    border-radius: 4px;
-    background: #C40202;
+    margin-top: 25px;
+    border: 0;
 }

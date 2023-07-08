@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main_page_styles.css">
     <title>Айкидо</title>
 </head>
 <body>
     <div class="header">
-        <img src="images/logo.png" alt="logo"/>
-        <button>войти</button>
+        <a href="main_page.html"><img src="images/logo.png" alt="logo"/></a>
+        <button onclick="window.location.href = 'login_page.html';">Войти</button>
     </div>
     <div class="welcome">
         <h1>Добро пожаловать в сервис «Дневник тренера»</h1>
         <h2>Здесь вы можете отслеживать задолжность по оплате</h2>
-        <button class="login">Войти</button>
+        <button class="login" onclick="window.location.href = 'login_page.html';">Войти</button>
         <button class="register">Зарегистрироваться</button>
     </div>
 </body>

@@ -7,10 +7,27 @@
     <title>Посещаемость</title>
 </head>
 <body>
-    <div class="header">
-        <a href="main_page.html"><img src="images/logo.svg" alt="logo"/></a>
-        <button onclick="window.location.href = 'login_page.html';">Войти</button>
-    </div>
+    <header>
+        <div class="shell">
+           <div class="header__inner">
+              <div class="header__logo">
+                 <img src="images/logo.svg" width="73px" height="73px" alt="">
+              </div>
+              <div class="header__menu">
+                 <nav>
+                    <a class="ssilka" href="kids_menu_page.html">ДЕТИ</a>
+                    <a class="ssilka" href="parents_menu_page.html">РОДИТЕЛИ</a>
+                    <a class="ssilka" href="attendance_page.html">ПОСЕЩАЕМОСТЬ</a>
+                    <a class="ssilka" href="pay_page.html">ОПЛАТА</a>
+                 </nav>
+              </div>
+              <div class="header__logout">
+                 <button class="logout">ВЫЙТИ</button>
+              </div>
+           </div>
+        </div>
+        <hr>
+     </header>
     <div class="attendance">
         <h1>посещаемость</h1>
         <div class="month_choise">

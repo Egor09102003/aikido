@@ -3,6 +3,21 @@ body{
     background: #CBD7DF;
 }
 
+html,body{
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    font-family: Montserrat;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    overflow: hidden;
+    color:#000;
+ }
+
+ 
+
+button::-moz-focus-inner{padding:0;border:0;}
 a:active, /* активная/посещенная ссылка */
 a:hover,  /* при наведении */
 a {
@@ -13,19 +28,67 @@ a {
     color: #FFF;
 }
 
-
-.header {
+hr{
+    margin: 0 auto;
     width: 1920px;
-    height: 120px;
-    display: table-cell;
-    vertical-align: middle;
-}
+    max-width: 100%;
+    top: 120px;
+    border: 1px solid #17181B;
+ }
 
-.header img {
-    width: 73.01px;
-    height: 73.014px;
-    margin-left: 448px;
-}
+.logout{
+    font-size: 10px;
+    letter-spacing: 10%;
+    width: 85px;
+    height: 37px;
+    background: #17181B;
+    border-radius: 5px;
+    font-family: inherit;
+    box-sizing: border-box;
+    color: #ffffff;
+    border: 0;
+ }
+ .logout:hover{
+    opacity: 0.5;
+ }
+
+.shell{
+    padding-top:23.5px;
+    padding-bottom: 23.5px;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .header__inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+ }
+ .header__menu .nav{
+    width: 100%;
+    max-width: 588px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .header__menu .ssilka{
+    padding: 17px 25px 17px 25px;
+ }
+ .ssilka{
+    font-size: 13px;
+    line-height: 17.55px;
+    letter-spacing: 4%;
+    font-weight: 400px;
+    color: #17181B;
+ }
+ .ssilka:hover{
+    opacity: 0.8;
+ }
 
 .header button {
     float: right;
@@ -51,11 +114,6 @@ a {
 button:hover {
     opacity: 0.8;
     cursor: pointer;
-}
-
-.header button:active {
-    background: #17181B;
-    color: #FFF;
 }
 
 .attendance {

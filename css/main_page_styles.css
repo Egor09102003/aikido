@@ -9,6 +9,14 @@ a {
   text-decoration: none;
 }
 
+hr{
+    margin: 0 auto;
+    width: 1920px;
+    max-width: 100%;
+    top: 120px;
+    border: 1px solid #17181B;
+ }
+
 a {
     color: #FFF;
 }

@@ -49,8 +49,7 @@ a {
 }
 
 button:hover {
-    background: gray;
-    color: black;
+    opacity: 0.8;
     cursor: pointer;
 }
 
@@ -98,9 +97,23 @@ button:hover {
 
 .month_choise option {
     height: 60px;
+    color:#17181B;
+    border: 1px solid #17181B;
+    padding: 10px 40px;
+    border-radius: 2px;
+    background-color: #CBD7DF;
 }
 
-.register {
+select {
+    background: #CBD7DF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.choise {
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
@@ -140,4 +153,24 @@ td {
 input {
     width: 20px;
     height: 20px;
+    color:#17181B;
+    border: 1px solid #17181B;
+    border-radius: 2px;
+    background-color: #CBD7DF;
+}
+
+.apply {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 152%;
+    border-radius: 4px;
+    border: 0;
+    width: 490px;
+    height: 66px;
+    margin-top: 25px;
+    background: #17181B;
 }

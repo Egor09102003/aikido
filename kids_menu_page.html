@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="../css/menu_kids.css" type="text/css">
+   <title>Дети</title>
+</head>
+
+<body>
+   <header>
+      <div class="shell">
+         <div class="header__inner">
+            <div class="header__logo">
+               <img src="../img/Logo.svg" width="73px" height="73px" alt="">
+            </div>
+            <div class="header__menu">
+               <nav>
+                  <a class="ssilka" href="#">ДЕТИ</a>
+                  <a class="ssilka" href="../html/menu_parents.html">РОДИТЕЛИ</a>
+                  <a class="ssilka" href="#">ПОСЕЩАЕМОСТЬ</a>
+                  <a class="ssilka" href="../html/pay.html">ОПЛАТА</a>
+               </nav>
+            </div>
+            <div class="header__logout">
+               <button class="logout">ВЫЙТИ</button>
+            </div>
+         </div>
+      </div>
+      <hr>
+   </header>
+   <div class="container">
+      <div class="title">
+         <p class="title__text">ДЕТИ</p>
+      </div>
+      <div class="container__inner">
+         <p class="inner__text">Добавить или удалить ребенка</p>
+      </div>
+      <div class="container__input">
+         <input class="firstinput" type="text" placeholder="ФИО ребенка">
+         <select id="selectID">
+            <option value="" disabled selected hidden>Выберите ребенка</option>
+            <option value=”GR” class="name">Абрамов Петр Иванович</option>
+            <option value=”YE” class="name">Курочкин Владислав Игорьевич</option>
+            <option value=”BL” class="name">Иванов Александр Степанович</option>
+         </select>
+      </div>
+      <div class="container__buttons">
+         <button class="addkid">
+            <div class="textic">
+               <p>Добавить ребенка
+               </p>
+            </div>
+         </button>
+         <button class="deletekid">
+            <p>Удалить ребенка</p>
+         </button>
+      </div>
+      <div class="kidslist">
+         <div class="listtitle">Список детей</div>
+         <div class="list">
+            <p class="text">Абрамов Петр Иванович</p>
+            <p class="text">Курочкин Владислав Игорьевич</p>
+            <p class="text">Иванов Александр Степанович</p>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
